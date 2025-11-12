@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-12T13:55:44 GST" name="SmartCart Supermarket" finished-at="2025-11-12T13:56:48 GST" duration-ms="64397">
+    <groups>
+      <group name="Regression Testing">
+        <method signature="AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@7486b455]" name="VerifyTheUserIsAbleToAddAdminUsers" class="testScript.AdminUsersTest"/>
+        <method signature="HomeTest.VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@1c9b0314]" name="VerifyTheUserIsAbleToLogout" class="testScript.HomeTest"/>
+        <method signature="LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@1500b2f3]" name="verifyTheUserIsAbleToLoginUsingValidCredentials" class="testScript.LoginTest"/>
+        <method signature="ManageCategoryTest.VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@660acfb]" name="VerifyTheUserIsAbleToAddCategory" class="testScript.ManageCategoryTest"/>
+        <method signature="ManageContactTest.VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@5d908d47]" name="VerifyTheUserIsAbleToUpdateContactDetails" class="testScript.ManageContactTest"/>
+        <method signature="ManageFooterTextTest.VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@5efa40fe]" name="VerifyTheUserIsAbleToUpdateFooterText" class="testScript.ManageFooterTextTest"/>
+        <method signature="ManageNewsTest.VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@1f9f6368]" name="VerifyTheUserIsAbleToPublishNews" class="testScript.ManageNewsTest"/>
+      </group> <!-- Regression Testing -->
+    </groups>
+    <test started-at="2025-11-12T13:55:44 GST" name="SmartCart Supermarket Automation - Phase 1" finished-at="2025-11-12T13:56:48 GST" duration-ms="64397">
+      <class name="testScript.ManageContactTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageContactTest@5d908d47]" started-at="2025-11-12T13:56:18 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:23 GST" duration-ms="4309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@5d908d47]" started-at="2025-11-12T13:56:23 GST" name="VerifyTheUserIsAbleToUpdateContactDetails" description=" To update contact details" finished-at="2025-11-12T13:56:27 GST" duration-ms="4005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToUpdateContactDetails -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageContactTest@5d908d47]" started-at="2025-11-12T13:56:27 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:27 GST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.ManageContactTest -->
+      <class name="testScript.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:44 GST" name="initializeBrowser" finished-at="2025-11-12T13:55:47 GST" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:47 GST" name="verifyTheUserIsAbleToLoginUsingValidCredentials" description="Login to Grocery application with valid username and password" finished-at="2025-11-12T13:55:49 GST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:49 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:55:49 GST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:49 GST" name="initializeBrowser" finished-at="2025-11-12T13:55:53 GST" duration-ms="3949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:53 GST" name="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword" description="Login to Grocery application with invalid username and password" finished-at="2025-11-12T13:55:54 GST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:54 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:55:54 GST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:54 GST" name="initializeBrowser" finished-at="2025-11-12T13:55:57 GST" duration-ms="3445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:57 GST" name="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword" description="Login to Grocery application with invalid username and valid password" finished-at="2025-11-12T13:55:58 GST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:58 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:55:58 GST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:55:58 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:02 GST" duration-ms="3706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:56:02 GST" name="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword" description="Login to Grocery application with valid username and invalid password" finished-at="2025-11-12T13:56:02 GST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@1500b2f3]" started-at="2025-11-12T13:56:02 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:02 GST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.LoginTest -->
+      <class name="testScript.ManageCategoryTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageCategoryTest@660acfb]" started-at="2025-11-12T13:56:10 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:15 GST" duration-ms="4892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@660acfb]" started-at="2025-11-12T13:56:15 GST" name="VerifyTheUserIsAbleToAddCategory" description="To add New category" finished-at="2025-11-12T13:56:18 GST" duration-ms="3363" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (334, 802)
+  (Session info: chrome=142.0.7444.60)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72870a37dd9508dc9acad2a7a6ec4680, clickElement {id=f.61B827EB37598822F0464A7A04B9D676.d.200E6FA26AAFB36395CD7D4BAD011938.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63861}, goog:processID: 37300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63861/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (72870a37dd9508dc9acad2a7a6ec4680)] -> xpath: //button[@name='create']]
+Session ID: 72870a37dd9508dc9acad2a7a6ec4680]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (334, 802)
+  (Session info: chrome=142.0.7444.60)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72870a37dd9508dc9acad2a7a6ec4680, clickElement {id=f.61B827EB37598822F0464A7A04B9D676.d.200E6FA26AAFB36395CD7D4BAD011938.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63861}, goog:processID: 37300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63861/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (72870a37dd9508dc9acad2a7a6ec4680)] -> xpath: //button[@name='create']]
+Session ID: 72870a37dd9508dc9acad2a7a6ec4680
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pages.ManageCategoryPage.clickOnSave(ManageCategoryPage.java:86)
+at testScript.ManageCategoryTest.VerifyTheUserIsAbleToAddCategory(ManageCategoryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToAddCategory -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageCategoryTest@660acfb]" started-at="2025-11-12T13:56:18 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:18 GST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.ManageCategoryTest -->
+      <class name="testScript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@1f9f6368]" started-at="2025-11-12T13:56:34 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:39 GST" duration-ms="5198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@1f9f6368]" started-at="2025-11-12T13:56:39 GST" name="VerifyTheUserIsAbleToPublishNews" description="To publish News" finished-at="2025-11-12T13:56:42 GST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToPublishNews -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageNewsTest@1f9f6368]" started-at="2025-11-12T13:56:42 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:42 GST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.ManageNewsTest -->
+      <class name="testScript.ManageFooterTextTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageFooterTextTest@5efa40fe]" started-at="2025-11-12T13:56:27 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:32 GST" duration-ms="4794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@5efa40fe]" started-at="2025-11-12T13:56:32 GST" name="VerifyTheUserIsAbleToUpdateFooterText" description=" To update footer text" finished-at="2025-11-12T13:56:34 GST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToUpdateFooterText -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageFooterTextTest@5efa40fe]" started-at="2025-11-12T13:56:34 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:34 GST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.ManageFooterTextTest -->
+      <class name="testScript.HomeTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.HomeTest@1c9b0314]" started-at="2025-11-12T13:56:42 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:47 GST" duration-ms="4811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@1c9b0314]" started-at="2025-11-12T13:56:47 GST" name="VerifyTheUserIsAbleToLogout" description=" To logout from grocery application" finished-at="2025-11-12T13:56:48 GST" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToLogout -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.HomeTest@1c9b0314]" started-at="2025-11-12T13:56:48 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:48 GST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.HomeTest -->
+      <class name="testScript.AdminUsersTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.AdminUsersTest@7486b455]" started-at="2025-11-12T13:56:02 GST" name="initializeBrowser" finished-at="2025-11-12T13:56:07 GST" duration-ms="4321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@7486b455]" started-at="2025-11-12T13:56:07 GST" name="VerifyTheUserIsAbleToAddAdminUsers" description="To add admin users with user type" finished-at="2025-11-12T13:56:10 GST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.AdminUsersTest@7486b455]" started-at="2025-11-12T13:56:10 GST" name="windowCloseAndQuit" finished-at="2025-11-12T13:56:10 GST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.AdminUsersTest -->
+    </test> <!-- SmartCart Supermarket Automation - Phase 1 -->
+  </suite> <!-- SmartCart Supermarket -->
+</testng-results>

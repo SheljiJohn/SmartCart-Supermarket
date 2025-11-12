@@ -1,0 +1,10 @@
+generateReport\Listeners.class
+testScript\LoginTest.class
+testScript\ManageContactTest.class
+testScript\Base.class
+testScript\ManageCategoryTest.class
+testScript\ManageFooterTextTest.class
+testScript\HomeTest.class
+testScript\ManageNewsTest.class
+retry\Retry.class
+testScript\AdminUsersTest.class

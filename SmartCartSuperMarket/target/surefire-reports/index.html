@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmartCart_Supermarket" class="navigator-link">
+              <span class="suite-name border-failed">SmartCart Supermarket</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmartCart_Supermarket" class="navigator-link ">
+                    <span>C:\Users\shelj\automation\SmartCartSuperMarket\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmartCart_Supermarket" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmartCart_Supermarket" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmartCart_Supermarket" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmartCart_Supermarket" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmartCart_Supermarket" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmartCart_Supermarket" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,  2 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="hide-methods failed suite-SmartCart_Supermarket"> (hide)</a> <!-- hide-methods failed suite-SmartCart_Supermarket -->
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="show-methods failed suite-SmartCart_Supermarket"> (show)</a> <!-- show-methods failed suite-SmartCart_Supermarket -->
+                    </span>
+                    <div class="method-list-content failed suite-SmartCart_Supermarket">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.ManageCategoryTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddCategory">VerifyTheUserIsAbleToAddCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmartCart_Supermarket -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="hide-methods skipped suite-SmartCart_Supermarket"> (hide)</a> <!-- hide-methods skipped suite-SmartCart_Supermarket -->
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="show-methods skipped suite-SmartCart_Supermarket"> (show)</a> <!-- show-methods skipped suite-SmartCart_Supermarket -->
+                    </span>
+                    <div class="method-list-content skipped suite-SmartCart_Supermarket">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.AdminUsersTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddAdminUsers">VerifyTheUserIsAbleToAddAdminUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.AdminUsersTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddAdminUsers">VerifyTheUserIsAbleToAddAdminUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SmartCart_Supermarket -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="hide-methods passed suite-SmartCart_Supermarket"> (hide)</a> <!-- hide-methods passed suite-SmartCart_Supermarket -->
+                      <a href="#" panel-name="suite-SmartCart_Supermarket" class="show-methods passed suite-SmartCart_Supermarket"> (show)</a> <!-- show-methods passed suite-SmartCart_Supermarket -->
+                    </span>
+                    <div class="method-list-content passed suite-SmartCart_Supermarket">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.AdminUsersTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddAdminUsers">VerifyTheUserIsAbleToAddAdminUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.HomeTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToLogout">VerifyTheUserIsAbleToLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.ManageNewsTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToPublishNews">VerifyTheUserIsAbleToPublishNews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.ManageContactTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToUpdateContactDetails">VerifyTheUserIsAbleToUpdateContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.ManageFooterTextTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToUpdateFooterText">VerifyTheUserIsAbleToUpdateFooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsAbleToLoginUsingValidCredentials">verifyTheUserIsAbleToLoginUsingValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword">verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword">verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword">verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmartCart_Supermarket -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmartCart_Supermarket" class="panel SmartCart_Supermarket">
+          <div class="suite-SmartCart_Supermarket-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.ManageCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToAddCategory">
+                  </a> <!-- VerifyTheUserIsAbleToAddCategory -->
+                  <span class="method-name">VerifyTheUserIsAbleToAddCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]//following::h5[text()=&apos; Alert!&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [feb1170e3ab50cd1c3eee5377fce00c2, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]//following::h5[text()=&apos; Alert!&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57255}, goog:processID: 10596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57255/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: feb1170e3ab50cd1c3eee5377fce00c2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.ManageCategoryPage.isAlertDisplayed(ManageCategoryPage.java:93)
+	at testScript.ManageCategoryTest.VerifyTheUserIsAbleToAddCategory(ManageCategoryTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To add New category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-failed -->
+          <div class="suite-SmartCart_Supermarket-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testScript.AdminUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToAddAdminUsers">
+                  </a> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+                  <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9efd4d7bb4f10bfbae4ed5466bfc353, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62190}, goog:processID: 16768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62190/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9efd4d7bb4f10bfbae4ed5466bfc353
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.AdminUsersPage.isAlertDisplayed(AdminUsersPage.java:71)
+	at testScript.AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers(AdminUsersTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To add admin users with user type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToAddAdminUsers">
+                  </a> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+                  <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c50709812d6a95aee1a6b80a2c85a1, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62499}, goog:processID: 41032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62499/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c50709812d6a95aee1a6b80a2c85a1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at pages.AdminUsersPage.isAlertDisplayed(AdminUsersPage.java:71)
+	at testScript.AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers(AdminUsersTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To add admin users with user type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-skipped -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.AdminUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToAddAdminUsers">
+                  </a> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+                  <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                  <em>
+(To add admin users with user type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.ManageFooterTextTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToUpdateFooterText">
+                  </a> <!-- VerifyTheUserIsAbleToUpdateFooterText -->
+                  <span class="method-name">VerifyTheUserIsAbleToUpdateFooterText</span>
+                  <em>
+( To update footer text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsAbleToLoginUsingValidCredentials">
+                  </a> <!-- verifyTheUserIsAbleToLoginUsingValidCredentials -->
+                  <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCredentials</span>
+                  <em>
+(Login to Grocery application with valid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword">
+                  </a> <!-- verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword -->
+                  <span class="method-name">verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword</span>
+                  <em>
+(Login to Grocery application with invalid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword">
+                  </a> <!-- verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword -->
+                  <span class="method-name">verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword</span>
+                  <em>
+(Login to Grocery application with invalid username and valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword">
+                  </a> <!-- verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword -->
+                  <span class="method-name">verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword</span>
+                  <em>
+(Login to Grocery application with valid username and invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.ManageNewsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToPublishNews">
+                  </a> <!-- VerifyTheUserIsAbleToPublishNews -->
+                  <span class="method-name">VerifyTheUserIsAbleToPublishNews</span>
+                  <em>
+(To publish News)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.ManageContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToUpdateContactDetails">
+                  </a> <!-- VerifyTheUserIsAbleToUpdateContactDetails -->
+                  <span class="method-name">VerifyTheUserIsAbleToUpdateContactDetails</span>
+                  <em>
+( To update contact details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+          <div class="suite-SmartCart_Supermarket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToLogout">
+                  </a> <!-- VerifyTheUserIsAbleToLogout -->
+                  <span class="method-name">VerifyTheUserIsAbleToLogout</span>
+                  <em>
+( To logout from grocery application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
+        </div> <!-- panel SmartCart_Supermarket -->
+        <div panel-name="test-xml-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shelj\automation\SmartCartSuperMarket\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SmartCart Supermarket&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;generateReport.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SmartCart Supermarket Automation - Phase 1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testScript.AdminUsersTest&quot;/&gt;
+      &lt;class name=&quot;testScript.ManageCategoryTest&quot;/&gt;
+      &lt;class name=&quot;testScript.ManageContactTest&quot;/&gt;
+      &lt;class name=&quot;testScript.ManageFooterTextTest&quot;/&gt;
+      &lt;class name=&quot;testScript.ManageNewsTest&quot;/&gt;
+      &lt;class name=&quot;testScript.HomeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmartCart Supermarket Automation - Phase 1 --&gt;
+&lt;/suite&gt; &lt;!-- SmartCart Supermarket --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmartCart Supermarket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SmartCart Supermarket Automation - Phase 1 (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmartCart Supermarket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Testing</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToAddCategory</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToPublishNews</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToUpdateContactDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheUserIsAbleToUpdateFooterText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheUserIsAbleToLoginUsingValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmartCart Supermarket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmartCart_Supermarket');
+function tableData_SmartCart_Supermarket() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyTheUserIsAbleToAddAdminUsers')
+data.setCell(0, 2, 'testScript.AdminUsersTest')
+data.setCell(0, 3, 7566);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyTheUserIsAbleToAddCategory')
+data.setCell(1, 2, 'testScript.ManageCategoryTest')
+data.setCell(1, 3, 7303);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyTheUserIsAbleToAddAdminUsers')
+data.setCell(2, 2, 'testScript.AdminUsersTest')
+data.setCell(2, 3, 6739);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyTheUserIsAbleToUpdateContactDetails')
+data.setCell(3, 2, 'testScript.ManageContactTest')
+data.setCell(3, 3, 3307);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyTheUserIsAbleToPublishNews')
+data.setCell(4, 2, 'testScript.ManageNewsTest')
+data.setCell(4, 3, 2713);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyTheUserIsAbleToAddAdminUsers')
+data.setCell(5, 2, 'testScript.AdminUsersTest')
+data.setCell(5, 3, 2538);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyTheUserIsAbleToUpdateFooterText')
+data.setCell(6, 2, 'testScript.ManageFooterTextTest')
+data.setCell(6, 3, 2319);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTheUserIsAbleToLoginUsingValidCredentials')
+data.setCell(7, 2, 'testScript.LoginTest')
+data.setCell(7, 3, 1708);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyTheUserIsAbleToLogout')
+data.setCell(8, 2, 'testScript.HomeTest')
+data.setCell(8, 3, 1053);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword')
+data.setCell(9, 2, 'testScript.LoginTest')
+data.setCell(9, 3, 880);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword')
+data.setCell(10, 2, 'testScript.LoginTest')
+data.setCell(10, 3, 765);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword')
+data.setCell(11, 2, 'testScript.LoginTest')
+data.setCell(11, 3, 678);
+window.suiteTableData['SmartCart_Supermarket']= { tableData: data, tableDiv: 'times-div-SmartCart_Supermarket'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-SmartCart_Supermarket">
+              </div> <!-- times-div-SmartCart_Supermarket -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmartCart Supermarket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmartCart_Supermarket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCredentials</span>
+                <span class="method-start">3866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">5579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">5823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword</span>
+                <span class="method-start">9325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">10206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">10486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword</span>
+                <span class="method-start">14062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">14740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">15012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword</span>
+                <span class="method-start">19293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">20059 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.AdminUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">20332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                <span class="method-start">24822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">32404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">32652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                <span class="method-start">37385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">44124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">44393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                <span class="method-start">48166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">50704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.ManageCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">50997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyTheUserIsAbleToAddCategory</span>
+                <span class="method-start">55412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">62730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.ManageContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">63043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToUpdateContactDetails</span>
+                <span class="method-start">67510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">70818 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.ManageFooterTextTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">71077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToUpdateFooterText</span>
+                <span class="method-start">75999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">78319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.ManageNewsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">78657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToPublishNews</span>
+                <span class="method-start">83487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">86200 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Chrome)</span>
+                <span class="method-start">86505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheUserIsAbleToLogout</span>
+                <span class="method-start">91861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">windowCloseAndQuit</span>
+                <span class="method-start">92915 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
